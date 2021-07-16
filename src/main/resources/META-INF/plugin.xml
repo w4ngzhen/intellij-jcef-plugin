@@ -1,11 +1,11 @@
 <idea-plugin>
-    <id>org.example.intellij-jcef-plugin</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>com.compilemind.intellij-jcef-plugin</id>
+    <name>Custom Jcef Plug-In</name>
+    <vendor email="w4ngzhen@hotmail.com" url="">CompileMind</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    This is a simple plugin by JCEF.
+    This plug-in can render Web pages and realize the interaction between JS and Java.
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
