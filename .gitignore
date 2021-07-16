@@ -1,0 +1,43 @@
+# IntelliJ
+**/out/
+/classes/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+.gradle/
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# docs related
+docs/virtualenv/
+
+# bft-smart
+**/config/currentView
+
+# vim
+*.swp
+*.swn
+*.swo
+
+# Files you may find useful to have in your working directory.
+PLAN
+NOTES
+TODO
+compiler.xml
+test.java
+
+*/src/main/resources/application.properties
+*/src/main/resources/electronic-signature.properties
+*/src/main/resources/logback.xml
+
+
+.idea
+.ideaDataSources
+
+project-dependencies.dot
+project-dependencies.png
