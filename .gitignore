@@ -38,6 +38,7 @@ test.java
 
 .idea
 .ideaDataSources
+build/
 
 project-dependencies.dot
 project-dependencies.png

@@ -14,6 +14,10 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
+        <toolWindow id="myToolWindowFactory"
+                    anchor="right"
+                    factoryClass="com.compilemind.demo.ui.MyToolWindowFactory"
+        />
     </extensions>
 
     <actions>
