@@ -20,7 +20,7 @@ public class MyToolWindowFactory implements ToolWindowFactory {
         Content labelContent =
                 contentManager.getFactory() // 内容管理器获取工厂类
                         .createContent( // 创建Content（组件类实例、显示名称、是否可以锁定）
-                                new JLabel("hello, world"),
+                                new MyWebToolWindowContent().getContent(),
                                 "MyTab",
                                 false
                         );
