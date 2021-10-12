@@ -1,5 +1,6 @@
 package com.compilemind.demo.ui;
 
+import com.compilemind.demo.handler.JsDialogHandler;
 import com.intellij.ui.jcef.JBCefApp;
 import com.intellij.ui.jcef.JBCefBrowser;
 
@@ -22,6 +23,11 @@ public class MyWebToolWindowContent {
         }
         // 创建 JBCefBrowser
         JBCefBrowser jbCefBrowser = new JBCefBrowser();
+        // 注册我们的Handler
+        jbCefBrowser.getJBCefClient()
+                .addJSDialogHandler(
+                        new JsDialogHandler(),
+                        jbCefBrowser.getCefBrowser());
         // 将 JBCefBrowser 的UI控件设置到Panel中
         this.content.add(jbCefBrowser.getComponent(), BorderLayout.CENTER);
         // 加载URL

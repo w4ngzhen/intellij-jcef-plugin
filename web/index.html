@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Dialog Demo</title>
+</head>
+<body style="text-align: center">
+<button id="btnAlert">
+    alert
+</button>
+<button id="btnConfirm">
+    confirm
+</button>
+<button id="btnPrompt">
+    prompt
+</button>
+<script type="text/javascript">
+    document.getElementById('btnAlert').onclick = () => {
+      alert('this is a message');
+    }
+    document.getElementById('btnConfirm').onclick = () => {
+      let res = confirm('ok?');
+      alert('your answer: ' + res);
+    }
+    document.getElementById('btnPrompt').onclick = () => {
+      let input = prompt('input your name: ');
+      alert('your answer: ' + input);
+    }
+</script>
+</body>
+</html>
